@@ -1,0 +1,347 @@
+[
+  {
+    "model": "forms.header",
+    "fields": {
+      "column_name": "dtform",
+      "question_text": "Date form originally completed",
+      "question_description": "",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "yyyy-mm-dd",
+      "logic": "prefilled"
+    }
+  },
+  {
+    "model": "forms.header",
+    "fields": {
+      "column_name": "dtamend",
+      "question_text": "Date form amended",
+      "question_description": "",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "yyyy-mm-dd",
+      "logic": "prefilled"
+    }
+  },
+  {
+    "model": "forms.header",
+    "fields": {
+      "column_name": "amendby",
+      "question_text": "Person amending form, last name",
+      "question_description": "",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "image to text",
+      "logic": "prefilled"
+    }
+  },
+  {
+    "model": "forms.header",
+    "fields": {
+      "column_name": "initials",
+      "question_text": "Patient Initials (first, middle, last)",
+      "question_description": "",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "const print",
+      "logic": "prefilled"
+    }
+  },
+  {
+    "model": "forms.header",
+    "fields": {
+      "column_name": "initials",
+      "question_text": "Patient Initials (first, middle, last)",
+      "question_description": "",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "const print",
+      "logic": "prefilled"
+    }
+  },
+  {
+    "model": "forms.header",
+    "fields": {
+      "column_name": "instcode",
+      "question_text": "Patient Study ID",
+      "question_description": "",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "const print",
+      "logic": "prefilled"
+    }
+  },
+  {
+    "model": "forms.header",
+    "fields": {
+      "column_name": "protcode",
+      "question_text": "Patient Study ID",
+      "question_description": "",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "const print",
+      "logic": "prefilled"
+    }
+  },
+  {
+    "model": "forms.header",
+    "fields": {
+      "column_name": "sequence",
+      "question_text": "Patient Study ID",
+      "question_description": "",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "const print",
+      "logic": "prefilled"
+    }
+  },
+  {
+    "model": "forms.header",
+    "fields": {
+      "column_name": "protsect",
+      "question_text": "Patient Study ID",
+      "question_description": "",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "const print",
+      "logic": "prefilled"
+    }
+  },
+  {
+    "model": "forms.header",
+    "fields": {
+      "column_name": "submittedby",
+      "question_text": "Person Completing Form, Last Name",
+      "question_description": "",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "const print",
+      "logic": "prefilled"
+    }
+  },
+  {
+    "model": "forms.footer",
+    "fields": {
+      "column_name": "groupname",
+      "question_text": "groupname",
+      "question_description": "",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "image to text",
+      "logic": ""
+    }
+  },
+  {
+    "model": "forms.footer",
+    "fields": {
+      "column_name": "groupstudyid",
+      "question_text": "groupstudyid",
+      "question_description": "datetime of submisssion",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "open text field - yyyy-mm-dd hh:mm:ss",
+      "logic": "datetime form was submitted"
+    }
+  },
+  {
+    "model": "forms.footer",
+    "fields": {
+      "column_name": "groupptid",
+      "question_text": "groupptid",
+      "question_description": "fmtype",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "image to text",
+      "logic": "prefilled"
+    }
+  },
+  {
+    "model": "forms.footer",
+    "fields": {
+      "column_name": "batchcust1",
+      "question_text": "virtual fields",
+      "question_description": "null",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "image to text",
+      "logic": "field that does not appear on form"
+    }
+  },
+  {
+    "model": "forms.footer",
+    "fields": {
+      "column_name": "csid",
+      "question_text": "virtual fields",
+      "question_description": "prefilled with Y if the form has been been saved and not submitted",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "single choice",
+      "logic": "prefilled field that does not appear on form"
+    }
+  },
+  {
+    "model": "forms.footer",
+    "fields": {
+      "column_name": "fmtype",
+      "question_text": "virtual fields",
+      "question_description": "form type",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "const print",
+      "logic": "prefilled field that does not appear on form"
+    }
+  },
+  {
+    "model": "forms.footer",
+    "fields": {
+      "column_name": "form_id",
+      "question_text": "virtual fields",
+      "question_description": "form id",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "const print",
+      "logic": "prefilled field that does not appear on form"
+    }
+  },
+  {
+    "model": "forms.footer",
+    "fields": {
+      "column_name": "filename",
+      "question_text": "virtual fields",
+      "question_description": "filename of it''s location",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "image to text",
+      "logic": "prefilled field that does not appear on form"
+    }
+  },
+  {
+    "model": "forms.footer",
+    "fields": {
+      "column_name": "orig_file",
+      "question_text": "virtual fields",
+      "question_description": "null",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "image to text",
+      "logic": "prefilled field that does not appear on form"
+    }
+  },
+  {
+    "model": "forms.footer",
+    "fields": {
+      "column_name": "receiv_type",
+      "question_text": "virtual fields",
+      "question_description": "what program the form was entered by",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "image to text",
+      "logic": "prefilled field that does not appear on form"
+    }
+  },
+  {
+    "model": "forms.footer",
+    "fields": {
+      "column_name": "remote_fax",
+      "question_text": "virtual fields",
+      "question_description": "null",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "image to text",
+      "logic": "prefilled field that does not appear on form"
+    }
+  },
+  {
+    "model": "forms.footer",
+    "fields": {
+      "column_name": "suspense_file",
+      "question_text": "virtual fields",
+      "question_description": "temporary file name",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "image to text",
+      "logic": "prefilled field that does not appear on form"
+    }
+  },
+  {
+    "model": "forms.footer",
+    "fields": {
+      "column_name": "time_stamp",
+      "question_text": "virtual fields",
+      "question_description": "datetime of entry in table",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "yyyy-mm-dd",
+      "logic": "prefilled field that does not appear on form"
+    }
+  },
+  {
+    "model": "forms.footer",
+    "fields": {
+      "column_name": "dtprocessed",
+      "question_text": "virtual fields",
+      "question_description": "date form processed",
+      "valid_value": "",
+      "export_value": "",
+      "field_format": "yyyy-mm-dd",
+      "logic": "prefilled field that does not appear on form"
+    }
+  },
+  {
+    "model": "forms.teleforms",
+    "fields": {
+      "formlabel": "DR",
+      "form_id": "22774",
+      "formver": "5",
+      "web_label": "Pre-Treatment Summary Form",
+      "datatable1": "form_dr",
+      "datatable2": ""
+    }
+  },
+  {
+    "model": "forms.formdr",
+    "fields": {
+      "dtform": "2012-08-03",
+      "dtamend": "2011-06-07",
+      "amendby": "DMUNSTER",
+      "initials": "BAF",
+      "instcode": "001",
+      "protcode": "0212",
+      "sequence": "022",
+      "protsect": "",
+      "submittedby": "NLAWRENCE",
+      "chestxray": "N",
+      "spchestxray": "",
+      "dtchestxray": "2012-07-31",
+      "ekg": "A",
+      "spekg": "PROBABLE LEFT ATRIAL ABNORMALITY",
+      "dtekg": "2012-07-31",
+      "mri": "A",
+      "spmri": "",
+      "dtmri": "2010-12-21",
+      "ctscan": "A",
+      "spct": "NON-TARGET LESIONS ONLY",
+      "dtctscan": "2012-07-31",
+      "other": "D",
+      "procspec": "",
+      "spother": "",
+      "dtother": "2013-02-11",
+      "tumoreval": "N",
+      "comment": "",
+      "groupname": "",
+      "groupptid": "3-AUG-2012 8:40:13",
+      "groupstudyid": "DR",
+      "batchcust1": "",
+      "csid": "",
+      "fmtype": "DR",
+      "form_id": "22774",
+      "filename": "\\\\teleform10s\\FormImages\\0212\\001-0212-022\\Form-DR_20120803084029.tif",
+      "orig_file": "",
+      "receiv_type": "WEB",
+      "remote_fax": "",
+      "suspense_file": "IRQ9DJ0000.tct",
+      "time_stamp": "8-3/2012 8:40:15 AM",
+      "dtprocessed": "2012-08-03"
+    }
+  }
+]
